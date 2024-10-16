@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!--custom css link-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--header section sttart-->
+<header class="header">
+
+    <section class ="flex">
+        <a href="home.html" class="logo">SmartStudent.</a>
+        <form action="" method="post" class="search-form">
+            <input tyepe="text" class="search_box" placeholder="search" required maxlength="100">
+            <button type="submit" class="fas fa-search" name="search_box"></button>
+        </form>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+        <div class="profile">
+            <img src="images/pic-1.jpg" alt="" style="width: 50%">
+            <h3>Vishwesh Jain</h3>
+            <span>Student</span>
+            <br>
+            <a href="profile.html" class="btn"> view profile</a>
+            <div class="flex-btn">
+                <a href="login.html" class="option-btn">log out</a>
+                <!-- <a href="register.html" class="option-btn">register</a> -->
+            </div>
+
+        </div>
+    </section>
+</header>
+
+<!--header section eneds-->
+<!-- side bar section start-->
+<div class="side-bar">
+    <div class="close-side-bar">
+        <i class="fas fa-times"></i>
+    </div>
+
+    <div class="profile">
+        <img src="images/pic-1.jpg" alt="" style="width: 45%">
+        <h3>Vishwesh Jain</h3>
+        <span>Student</span>
+        <br>
+        <a href="profile.html" class="btn"> view profile</a>
+        </div>
+        
+        <nav class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="attendance.html"><i class="fas fa-calendar-check"></i><span>Attedance</span></a>
+            <a href="result.html"><i class="fas fa-chart-line"></i><span>Results</span></a>
+            <a href="course.html"><i class="fas fa-graduation-cap"></i><span>Timetable</span></a>
+            <a href="fees.html"><i class="fas fa-money-bill-wave"></i><span>Fees</span></a>
+            <!-- <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teacher</span></a> -->
+            <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+            <a href="feedback.html"><i class="fas fa-comments"></i><span>Feedback</span></a>
+        </nav>
+        
+</div>
+
+<!--side bar section end -->
+
+<!-- attedance section starts-->
+<div class="attendance-container">
+    <h1 class="heading" >Attendance</h1>
+
+    <div class="box-container">
+        <div class="box">
+             <h3 class="title">Total attendance: </h3>
+            <div class="flex">
+                <a href="#"><i  class="fas fa-chart-simple"></i><span>(*attedance)</span></a>
+            </div>
+         </div> 
+
+    <div class="calendar">
+        <!-- Calendar navigation -->
+        <div class="calendar-nav">
+            <button id="prev-month">&lt;</button>
+            <h3 id="month-year"></h3>
+            <button id="next-month">&gt;</button>
+        </div>
+
+        <!-- Days of the week -->
+        <div class="days-of-week">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+        </div>
+
+        <!-- Days grid -->
+        <div id="days-grid" class="days-grid">
+            <!-- Days will be populated here by JavaScript -->
+        </div>
+    </div>
+</div>
+
+
+
+
+
+ <!--attedance section ends-->
+
+
+
+<!-- footer section start-->
+
+<footer class="footer">
+
+    &copy; copyright @2024 by <span>Vishwesh Jain</span> all rights are reserved!
+</footer>
+
+<!-- foooter section end -->
+
+
+
+
+
+
+   <!--custom js file link-->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!--custom css link-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--header section sttart-->
+<header class="header">
+
+    <section class ="flex">
+        <a href="home.html" class="logo">SmartStudent.</a>
+        <form action="" method="post" class="search-form">
+            <input tyepe="text" class="search_box" placeholder="search" required maxlength="100">
+            <button type="submit" class="fas fa-search" name="search_box"></button>
+        </form>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="toggle-btn" class="fas fa-sun"></div>
+        </div>
+        <div class="profile">
+            <img src="images/pic-1.jpg" alt="" style="width: 50%">
+            <h3>Vishwesh Jain</h3>
+            <span>Student</span>
+            <br>
+            <a href="profile.html" class="btn"> view profile</a>
+            <div class="flex-btn">
+                <a href="login.html" class="option-btn">login</a>
+                <a href="register.html" class="option-btn">register</a>
+            </div>
+
+        </div>
+    </section>
+</header>
+
+<!--header section eneds-->
+<!-- side bar section start-->
+<div class="side-bar">
+    <div class="close-side-bar">
+        <i class="fas fa-times"></i>
+    </div>
+
+    <div class="profile">
+        <img src="images/pic-1.jpg" alt="" style="width: 45%">
+        <h3>Vishwesh Jain</h3>
+        <span>Student</span>
+        <br>
+        <a href="profile.html" class="btn"> view profile</a>
+        </div>
+        
+        <nav class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="attendance.html"><i class="fas fa-calendar-check"></i><span>Attedance</span></a>
+            <a href="result.html"><i class="fas fa-chart-line"></i><span>Results</span></a>
+            <a href="course.html"><i class="fas fa-graduation-cap"></i><span>Course</span></a>
+            <a href="fees.html"><i class="fas fa-money-bill-wave"></i><span>Fees</span></a>
+            <!-- <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teacher</span></a> -->
+            <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+            <a href="feedback.html"><i class="fas fa-comments"></i><span>Feedback</span></a>
+        </nav>
+        
+</div>
+
+<!--side bar section end -->
+<!-- course section starts -->
+<!-- 
+<div class="container">
+    <h1>Course Page</h1>
+
+    <div class="course-sections">
+        <a href="timetable.html" class="btn">Timetable</a>
+        <a href="study.html" class="btn">Study Materials</a>
+    </div>
+</div> -->
+
+<!-- course section ends -->
+
+<!-- timetable section starts -->
+<body>
+    <div class="container">
+        <h1>Timetable</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>9:00 - 10:00 AM</th>
+                    <th>10:00 - 11:00 AM</th>
+                    <th>11:00 - 12:00 PM</th>
+                    <th>1:00 - 2:00 PM</th>
+                    <th>2:00 - 3:00 PM</th>
+                    <th>3:00 - 4:00 PM</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Math</td>
+                    <td>Eng. Physics</td>
+                    <td>LUNCH-BREAK</td>
+                    <td>Commun. Skill</td>
+                    <td>Computer Science</td>
+                    <td>Physical Education</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Math</td>
+                    <td>Commu. skill</td>
+                    <td>LUNCH-BREAK</td>
+                    <td>Self Study</td>
+                    <td>Computer Science</td>
+                    <td>Self Study</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+
+        <div class="back-button">
+            <a href="course.html" class="btn">Back to Main page</a>
+        </div>
+    </div>
+<!-- timetable section ends -->
+
+<!-- footer section start-->
+
+<footer class="footer">
+
+    &copy; copyright @2024 by <span>Vishwesh Jain</span> all rights are reserved!
+</footer>
+
+<!-- foooter section end -->
+
+
+   <!--custom js file link-->
+    <script src="js/script.js"></script>
+</body>
+</html>
