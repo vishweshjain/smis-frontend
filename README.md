@@ -52,8 +52,6 @@ ges and icons used in the project └── scripts/ └── dashboard.js # Ja
 4. **Run the application:** Start the server and open the application in your web browser:
 
 ```bash
-Copy code
-http://localhost:8080/your-context-path
 
 ## Contributing
 Feel free to fork the project, open issues, or submit pull requests. Contributions are always welcome!
