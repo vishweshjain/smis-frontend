@@ -28,6 +28,12 @@ This repository hosts the **frontend** developed using **HTML, CSS, JavaScript**
 - 🎞️ **Smooth UI Transitions** – Animations and interactive behavior using JavaScript and CSS
 
 ---
+## 📸 Demo
+
+- 🔗 Student :  https://students-room.netlify.app/
+- 🔗 Faculty :  https://faculty-room.netlify.app/
+
+---
 
 ## 🛠️ Technologies Used
 
